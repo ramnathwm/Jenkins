@@ -1,0 +1,27 @@
+
+
+<project name="project1" default="war" >
+				  
+	
+	
+	<target name="war" >
+		<echo> This target create a war </echo>
+		<echo > defining file list . in file list we have dir and files. in dir which directory files you want to list and list is what files you want to inclide of those files.</echo>
+
+
+	<war  needxmlfile='false' 
+		destfile="C:\Users\Lakshmikanth\Desktop\JenkinsBuilds\Jenkins\war-dest\helloworld.war"  >
+		
+	
+		
+		<filelist
+  		id="filelist"
+		dir="C:\Users\Lakshmikanth\Desktop\GITREPO\Devops\Ant\JAVA\javaclasses"
+		files= "HelloWorld.class"/>
+
+	</war>
+	</target>
+	
+	
+</project>
+
