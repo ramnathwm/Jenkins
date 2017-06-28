@@ -1,0 +1,27 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\Lakshmikanth\.jenkins\jobs\HelloWorld\workspace
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ramnathwm/Jenkins # timeout=10
+Fetching upstream changes from https://github.com/ramnathwm/Jenkins
+ > git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials ece to wm repo
+ > git.exe fetch --tags --progress https://github.com/ramnathwm/Jenkins +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 1fb4b69a2dbc1edb935e14661dcd9547e7ca9111 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 1fb4b69a2dbc1edb935e14661dcd9547e7ca9111
+ > git.exe rev-list 1fb4b69a2dbc1edb935e14661dcd9547e7ca9111 # timeout=10
+[workspace] $ cmd /c call C:\Users\Lakshmikanth\Desktop\apache-tomcat-7.0.67\temp\hudson8837706939638353687.bat
+
+C:\Users\Lakshmikanth\.jenkins\jobs\HelloWorld\workspace>Javac HelloWorld.java 
+
+C:\Users\Lakshmikanth\.jenkins\jobs\HelloWorld\workspace>Java HelloWorld 
+Hellow World
+
+C:\Users\Lakshmikanth\.jenkins\jobs\HelloWorld\workspace>exit 0 
+ERROR: Please configure the Selenium Remote Control htmlSuite Runner in admin of hudson
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mBuild step 'SeleniumHQ htmlSuite Run' changed build result to FAILURE
+Build step 'SeleniumHQ htmlSuite Run' marked build as failure
+Finished: FAILURE

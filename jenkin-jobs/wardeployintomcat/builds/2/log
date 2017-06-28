@@ -1,0 +1,11 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building on master in workspace C:\Users\Lakshmikanth\.jenkins\jobs\wardeployintomcat\workspace
+[Jenkins] $ cmd.exe /C '"ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: C:\Users\Lakshmikanth\Desktop\JenkinsBuilds\Jenkins\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD FAILED
+C:\Users\Lakshmikanth\Desktop\JenkinsBuilds\Jenkins\build.xml:7: Unexpected attribute "needxmlfile"
+
+Total time: 0 seconds
+Build step 'Invoke Ant' marked build as failure
+Finished: FAILURE

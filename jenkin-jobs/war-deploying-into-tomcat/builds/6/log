@@ -1,0 +1,33 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building on master in workspace C:\Users\Lakshmikanth\.jenkins\jobs\war-deploying-into-tomcat\workspace
+[Jenkins] $ cmd.exe /C '"ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: C:\Users\Lakshmikanth\Desktop\JenkinsBuilds\Jenkins\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mwar:
+     [echo]  This target create a war 
+     [echo]  defining file list . in file list we have dir and files. in dir which directory files you want to list and list is what files you want to inclide of those files.
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 1 second
+ERROR: Step ‘Deploy war/ear to a container’ aborted due to exception: 
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.io.IOException: Expecting Ant GLOB pattern, but saw 'C:\Users\Lakshmikanth\Desktop\JenkinsBuilds\Jenkins\war-dest\helloworld.war'. See http://ant.apache.org/manual/Types/fileset.html for syntax
+	at hudson.FilePath.glob(FilePath.java:1739)
+	at hudson.FilePath.access$1700(FilePath.java:191)
+	at hudson.FilePath$32.invoke(FilePath.java:1720)
+	at hudson.FilePath$32.invoke(FilePath.java:1717)
+	at hudson.FilePath.act(FilePath.java:991)
+	at hudson.FilePath.act(FilePath.java:969)
+	at hudson.FilePath.list(FilePath.java:1717)
+	at hudson.FilePath.list(FilePath.java:1702)
+	at hudson.FilePath.list(FilePath.java:1688)
+	at hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:59)
+	at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:785)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:726)
+	at hudson.model.Build$BuildExecution.post2(Build.java:185)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:671)
+	at hudson.model.Run.execute(Run.java:1766)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+Finished: FAILURE

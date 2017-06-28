@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>10</queueId>
+  <timestamp>1498580619381</timestamp>
+  <startTime>1498580619425</startTime>
+  <result>FAILURE</result>
+  <duration>3647</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\Lakshmikanth\.jenkins\jobs\war-deploying-into-tomcat\workspace</workspace>
+  <hudsonVersion>1.634</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
